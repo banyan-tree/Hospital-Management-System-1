@@ -32,6 +32,7 @@ include('header.php');
 		    include('admin.php');
 		}
 	?></p>
+	<button type="submit" value="Reset Password" onClick="document.location.href='reset.php'">Reset Password</button>
     <input type="button" value="Logout" onClick="location.href='logout.php'" />
 </div>
 </body>

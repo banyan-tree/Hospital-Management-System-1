@@ -17,7 +17,7 @@
             and login.unique_ID = doctor_patient_info.staff_ID;";
             $result = mysql_query($query);
             if ($result === FALSE) {
-                die(mysql_error()); // TODO: better error handling
+                die(mysql_error());
             }
             $num = mysql_numrows($result);
             echo "<b><center>Database Output</center></b><br><br>";

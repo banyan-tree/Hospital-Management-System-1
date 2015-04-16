@@ -22,11 +22,10 @@ if (isset($_POST['admission_ID'])) {
 	<?php
     	////*****NURSE******\\\\\\\\
 	    if (strcmp($login_session_role, "NURSE")  == 0){
-	    	
-	    	?>
+	?>
 	    	
 	    	<button type="submit" value="Add Patient" onClick="document.location.href='new_patient.php'">Add Staff</button>
-	    	
+	    	<hr>
 	    	<?php
 	    
         	$query="SELECT admission_ID, patient_name,";

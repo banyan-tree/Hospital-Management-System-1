@@ -34,21 +34,17 @@ if (strcmp($login_session_role, "PATIENT")  == 0){
     }
 }
 ?>
-	<form name="form" action="" method="post">
-        Name: <?php echo $name;?><br>
-        Age: <?php echo $age;?> <br>
-        Email: <?php echo $email;?> <br>
-        Contact: <?php echo $contact;?> <br>
-        Address: <?php echo $address;?> <br>
-        Diagnosis: <?php echo $diag; ?><br>
-        Drugs: <?php echo $drugs; ?><br>
-        Doctor's Name: <?php echo $staff_Name; ?><br>
-        Insurance Company: <?php echo $insurance_Company; ?><br>
-        Insurance ID: <?php echo $insurance_ID; ?><br>
-        <input type=HIDDEN name="patient_ID" value=<?php echo $patient_ID;?>>
-        <input type="button" value="Update Personal Info"  id="logout" style="float: left" onClick="document.location.href='patient1.php'"  />
-
-    </form>
+	Name: <?php echo $name;?><br>
+    Age: <?php echo $age;?> <br>
+    Email: <?php echo $email;?> <br>
+    Contact: <?php echo $contact;?> <br>
+    Address: <?php echo $address;?> <br>
+    Diagnosis: <?php echo $diag; ?><br>
+    Drugs: <?php echo $drugs; ?><br>
+    Doctor's Name: <?php echo $staff_Name; ?><br>
+    Insurance Company: <?php echo $insurance_Company; ?><br>
+    Insurance ID: <?php echo $insurance_ID; ?><br>
+    <input type="button" value="Update Personal Info"  id="logout" style="float: left" onClick="document.location.href='patient1.php'"  />
 </div>
 </body>
 </html>

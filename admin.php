@@ -12,7 +12,7 @@ include('session.php');
 	    if (strcmp($login_session_role, "ADMIN")  == 0){
 	?>
 			<button type="submit" value="Add Doctor" onClick="document.location.href='add_staff.php'">Add Staff</button>
-			<button type="submit" value="Reset Password" onClick="document.location.href='reset.php'">Reset Password</button>
+			<button type="submit" value="Reset Any Password" onClick="document.location.href='global_reset.php'">Reset Any Password</button>
 <?php
     	}
 ?>
