@@ -1,5 +1,5 @@
 <?php
-
+ob_start();
 include('login.php'); // Includes Login Script
 include('header.php');
 

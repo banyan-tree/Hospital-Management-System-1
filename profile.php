@@ -26,6 +26,11 @@ include('header.php');
 		if (strcmp($login_session_role, "PATIENT") == 0) {
 		    include('patient.php');
 		}
+		
+		////***********\\\\\\\\
+		if (strcmp($login_session_role, "ADMIN") == 0) {
+		    include('admin.php');
+		}
 	?></p>
     <input type="button" value="Logout" onClick="location.href='logout.php'" />
 </div>
