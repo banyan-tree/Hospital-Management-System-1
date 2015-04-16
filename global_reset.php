@@ -50,6 +50,10 @@ include('header.php');
 		    	<span><?php echo $error; ?></span>
     		</form>
     <?php
+    	} else {
+    		?><p>You do not have enough permissions</p>
+    		<input type="button" value="Back" onClick="location.href='profile.php'" />
+    		<?php
     	}
     ?>
 	<input type="button" value="Logout" onClick="location.href='logout.php'" />
