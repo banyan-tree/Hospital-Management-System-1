@@ -38,7 +38,7 @@ include('header.php');
 <body>
 <div id="profile">
 	<?php
-    	////*****NURSE******\\\\\\\\
+    	////*****Admin******\\\\\\\\
 	    if (strcmp($login_session_role, "ADMIN")  == 0){
 	?>
 			<form name="form" action="" method="post">
