@@ -22,6 +22,13 @@ if (isset($_POST['admission_ID'])) {
 	<?php
     	////*****NURSE******\\\\\\\\
 	    if (strcmp($login_session_role, "NURSE")  == 0){
+	    	
+	    	?>
+	    	
+	    	<button type="submit" value="Add Patient" onClick="document.location.href='new_patient.php'">Add Staff</button>
+	    	
+	    	<?php
+	    
         	$query="SELECT admission_ID, patient_name,";
         	$query.=" DATE_FORMAT(admission_Date, '%Y-%m-%d'),";
         	$query.=" DATE_FORMAT(discharge_Date, '%Y-%m-%d'), bed_Number,";

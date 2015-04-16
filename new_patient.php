@@ -1,20 +1,21 @@
 <?php
 
 include('session.php');
-if (isset($_POST['add_staff'])) {
-	if (!empty($_POST['name']) and !empty($_POST['email'])) {
-		$query="SELECT COUNT(*) FROM staff;";
+if (isset($_POST['new_patient'])) {
+	if (!empty($_POST['name']) and !empty($_POST['email']) and
+	 !empty($_POST['address']) and !empty($_POST['phone']) and
+	  !empty($_POST['age'])) {
+		$query="SELECT COUNT(*) FROM patient_record;";
 	    $result=mysql_query($query);
 	    if ($result === FALSE) {
 	    	$error="Can't retrieve list";
 	    } else {
 	    	if($row = mysql_fetch_assoc($result)){
 		    	$num = $row['COUNT(*)'];
-			    $datetime=new DateTime('NOW');
-			    $datetime=$datetime->format('Y-m-d');;
-			    $query="INSERT INTO staff VALUES('s" . (intval($num)+1) . "',";
-		    	$query.="'".$_POST['name']."', '".$_POST['email']."',";
-			    $query.=" '".$_POST['type']."', '$datetime');";
+			    $query="INSERT INTO patient_record VALUES('p".(intval($num)+1);
+		    	$query.="', '".$_POST['name']."', '".$_POST['address']."',";
+			    $query.=" '".$_POST['email']."', '".$_POST['phone']."',";
+			    $query.=" '".$_POST['age']."');";
 			    $result=mysql_query($query);
 				if ($result === FALSE) {
 					$error="Some error";
@@ -30,7 +31,7 @@ if (isset($_POST['add_staff'])) {
 			}
 		}
 	} else {
-		$error="Name or Email cannot be blank";
+		$error="Name, Email, Address, Phone or Age cannot be blank";
 	}
 }
 include('header.php');
@@ -38,23 +39,22 @@ include('header.php');
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Add Doctor</title>
+    <title>New Patient</title>
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div id="profile">
 	<?php
     	////*****Admin******\\\\\\\\
-	    if (strcmp($login_session_role, "ADMIN")  == 0){
+	    if (strcmp($login_session_role, "NURSE")  == 0){
 	?>
 			<form name="form" action="" method="post">
-		        Staff Name: <input type="text" name="name" style="width: 150px;"><br>
+		        Patient Name: <input type="text" name="name" style="width: 150px;"><br>
+		        Address: <input type="text" name="address" style="width: 150px;"><br>
 		        Email: <input type="text" name="email" style="width: 150px;"><br>
-				<SELECT NAME="type">
-					<OPTION VALUE="DOCTOR">Doctor
-					<OPTION VALUE="NURSE">Nurse
-				</SELECT>
-		        <input name="add_staff" type="submit" value="Submit" style="width: 100px;">
+		        Phone: <input type="number" name="phone" style="width: 150px;"><br>
+		        Age: <input type="number" name="age" style="width: 150px;"><br>
+		        <input name="new_patient" type="submit" value="Submit" style="width: 100px;">
 		    	<input type="button" value="Back" style="float: right" onClick="document.location.href='profile.php'"  />
 		    	<span><?php echo $error; ?></span>
     		</form>
