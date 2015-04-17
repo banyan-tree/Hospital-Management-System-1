@@ -8,6 +8,10 @@ $connection = mysql_connect("localhost", "root", "infinite");
 $db = mysql_select_db("test", $connection);
 session_start();// Starting Session
 // Storing Session
+
+$encryption_key=$_SESSION['encrypt_key'];
+$iv=$_SESSION['encrypt_iv'];
+
 $user_check=$_SESSION['login_user'];
 $user_name=$_SESSION['login_name'];
 // SQL Query To Fetch Complete Information Of User

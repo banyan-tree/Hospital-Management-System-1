@@ -2,8 +2,29 @@
 include('session.php');
 
 if (isset($_POST['doctor_ID']) && isset($_POST['admission_ID'])) {
-	$doctor = $_POST['doctor_ID'];
-	$admission = $_POST['admission_ID'];
+//    $doctor = $_POST['doctor_ID'];
+//    $admission = $_POST['admission_ID'];
+
+    // DEFINE our cipher
+    define('AES_256_CBC', 'aes-256-cbc');
+    $encrypted1 = $_POST['doctor_ID'];
+    $encrypted2 = $_POST['admission_ID'];
+
+//    echo "\n****encryption_key****".$encryption_key;
+//    echo "\n****iv****".$iv;
+//    echo "Encrypted11: $encrypted1\n";
+//    echo "Encrypted22: $encrypted2\n";
+
+    // To decrypt, separate the encrypted data from the initialization vector ($iv)
+    $parts = explode(':', $encrypted1);
+// $parts[0] = encrypted data
+// $parts[1] = initialization vector
+    $doctor = openssl_decrypt($parts[0], AES_256_CBC, $encryption_key, 0, $parts[1]);
+   // echo "doctor: $doctor\n";
+
+    $parts = explode(':', $encrypted2);
+    $admission = openssl_decrypt($parts[0], AES_256_CBC, $encryption_key, 0, $parts[1]);
+   // echo "admission: $admission\n";
 }
 
 if (isset($_POST['edit'])) {

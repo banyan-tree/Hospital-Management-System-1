@@ -33,18 +33,33 @@ if (strcmp($login_session_role, "PATIENT")  == 0){
         $patient_ID = mysql_result($result,$i,"patient_ID");
     }
 }
+
 ?>
-	Name: <?php echo $name;?><br>
-    Age: <?php echo $age;?> <br>
-    Email: <?php echo $email;?> <br>
-    Contact: <?php echo $contact;?> <br>
-    Address: <?php echo $address;?> <br>
-    Diagnosis: <?php echo $diag; ?><br>
-    Drugs: <?php echo $drugs; ?><br>
-    Doctor's Name: <?php echo $staff_Name; ?><br>
-    Insurance Company: <?php echo $insurance_Company; ?><br>
-    Insurance ID: <?php echo $insurance_ID; ?><br>
-    <input type="button" value="Update Personal Info"  id="logout" style="float: left" onClick="document.location.href='patient1.php'"  />
+	<form name="form" action="" method="post">
+
+        Name: <?php echo $name;?><br>
+        Age: <?php echo $age;?> <br>
+        Email: <?php echo $email;?> <br>
+        Contact: <?php echo $contact;?> <br>
+        Address: <?php echo $address;?> <br>
+        Diagnosis: <?php echo $diag; ?><br>
+        Drugs: <?php echo $drugs; ?><br>
+        Doctor's Name: <?php echo $staff_Name; ?><br>
+        Insurance Company: <?php echo $insurance_Company; ?><br>
+        Insurance ID: <?php echo $insurance_ID; ?><br>
+
+
+        <input type="button" value="Update Personal Info"  id="logout" style="float: left; background-color:#FFBC00; color:#fff;
+	        margin-top: 15px;
+            border:2px solid #FFCB00;
+            padding:10px;
+            font-size:20px;
+            cursor:pointer;
+            border-radius:5px;
+            margin-bottom:15px" onClick="document.location.href='patient1.php'"  />
+        </table>
+
+    </form>
 </div>
 </body>
 </html>

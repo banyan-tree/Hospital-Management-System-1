@@ -41,7 +41,14 @@
      ?>
 
     <form name="form" action="" method="post">
-        <input type="button" value="Discharge Info" name="d_info"  id="d_info" style="float: right" onclick="document.location.href='doctor_Discharge.php'"  />
+        <input type="button" value="Discharge Info" name="d_info"  id="d_info" style=" background-color:#FFBC00; color:#fff;
+	        margin-top: 15px;
+            border:2px solid #FFCB00;
+            padding:10px;
+            font-size:20px;
+            cursor:pointer;
+            border-radius:5px;
+            margin-bottom:15px" onclick="document.location.href='doctor_Discharge.php'"  />
     </form>
 </div>
 </body>

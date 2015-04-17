@@ -37,6 +37,16 @@ include('header.php');
 </head>
 <body>
 <div id="profile">
+    <p align="right">
+        <input type="button" value="Logout" style=" background-color:#FFBC00; color:#fff;
+	        margin-top: 15px;
+            border:2px solid #FFCB00;
+            padding:10px;
+            font-size:20px;
+            cursor:pointer;
+            border-radius:5px;
+            margin-bottom:15px" onClick="location.href='logout.php'" />
+    </p>
 	<?php
     	////*****Admin******\\\\\\\\
 	    if (strcmp($login_session_role, "ADMIN")  == 0){
@@ -46,7 +56,14 @@ include('header.php');
 		        New Password: <input type="password" name="new-password" style="width: 150px;"><br>
 		        Retype Password: <input type="password" name="re-password" style="width: 150px;"><br>
 		        <input name="reset" type="submit" value="Submit" style="width: 100px;">
-		    	<input type="button" value="Back" style="float: right" onClick="document.location.href='profile.php'"  />
+		    	<input type="button" value="Back" style=" background-color:#FFBC00; color:#fff;
+	        margin-top: 15px;
+            border:2px solid #FFCB00;
+            padding:10px;
+            font-size:20px;
+            cursor:pointer;
+            border-radius:5px;
+            margin-bottom:15px" onClick="document.location.href='profile.php'"  />
 		    	<span><?php echo $error; ?></span>
     		</form>
     <?php
@@ -56,5 +73,5 @@ include('header.php');
     		<?php
     	}
     ?>
-	<input type="button" value="Logout" onClick="location.href='logout.php'" />
+
 </div>

@@ -12,6 +12,24 @@ include('header.php');
 <body>
 <div id="profile">
     <b id="welcome">Welcome : <i><?php echo ucwords($user_name);?></i></b>
+    <p align="right">
+        <button type="submit" value="Reset Password" style="float right; background-color:#FFBC00; color:#fff;
+	        margin-top: 15px;
+            border:2px solid #FFCB00;
+            padding:10px;
+            font-size:20px;
+            cursor:pointer;
+            border-radius:5px;
+            margin-bottom:15px"onClick="document.location.href='reset.php'">Reset Password</button>
+        <input align="right" type="button" value="Logout" style="float right; background-color:#FFBC00; color:#fff;
+	        margin-top: 15px;
+            border:2px solid #FFCB00;
+            padding:10px;
+            font-size:20px;
+            cursor:pointer;
+            border-radius:5px;
+            margin-bottom:15px" onClick="location.href='logout.php'" />
+    </p>
     <p><?php
 		if (strcmp($login_session_role, "DOCTOR") == 0) {
 		    include('doctor.php');
@@ -32,8 +50,6 @@ include('header.php');
 		    include('admin.php');
 		}
 	?></p>
-	<button type="submit" value="Reset Password" onClick="document.location.href='reset.php'">Reset Password</button>
-    <input type="button" value="Logout" onClick="location.href='logout.php'" />
 </div>
 </body>
 </html>
