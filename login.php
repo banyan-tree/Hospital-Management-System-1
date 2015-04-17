@@ -27,7 +27,7 @@ $rows = mysql_num_rows($query);
 if ($rows == 1) {
 $_SESSION['login_user']=$username; // Initializing Session
 $_SESSION['login_name']=$username1;
-
+define('AES_256_CBC', 'aes-256-cbc');
 // Encryption for data in transit
 // Generate a 256-bit encryption key
 // This should be stored somewhere instead of recreating it each time

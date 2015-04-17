@@ -2,29 +2,36 @@
 
 include('session.php');
 if (isset($_POST['reset'])) {
-	if (!is_null($_POST['new-password'])) {
-		$query="SELECET * FROM login where username = '";
-    	$query.=$user_check . "';";
-	    $result=mysql_query($query);
+    if (!empty($_POST['new-password'])) {
+        $pass=md5($_POST['old-password']);
+        $ses_sql=mysql_query("select password from login where username='$user_check'", $connection);
+        $row = mysql_fetch_assoc($ses_sql);
+        $newPass =$row['password'];
 
-		if (!$result) {
-			if (strcmp($_POST['new-password'], $_POST['re-password']) == 0) {
-				$password = md5($_POST['new-password']);
-				$query="UPDATE login SET password='$password'";
-				$query.=" WHERE username='$user_check'";
-				$result=mysql_query($query);
-				if($result) {
-					header("location: profile.php");
-				} else {
-					$error="Error updating";
-				}
-			} else {
-				$error="Both passwords must be equal";
-			}
-		} else {
-			$error="User probably does not exist";
-		}
-	}
+        if ($pass!=$newPass) {
+            $error="Incorrect old password";
+        } else {
+            if(strlen($_POST['new-password'])<6){
+                $error="Password Too Short";
+            }
+            elseif (strcmp($_POST['new-password'], $_POST['re-password']) == 0) {
+                $password = md5($_POST['new-password']);
+                $query="UPDATE login SET password='$password'";
+                $query.=" WHERE username='$user_check' and password='$pass'";
+                $result=mysql_query($query);
+                if(!$result) {
+                    $error="Error updating";
+                } else {
+                    header("location: profile.php");
+                }
+            } else {
+                $error="Both passwords must be equal";
+            }
+
+        }
+    } else {
+        $error="Password cannot be empty";
+    }
 }
 include('header.php');
 ?>
