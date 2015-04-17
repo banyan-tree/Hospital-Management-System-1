@@ -65,16 +65,6 @@ if (strcmp($login_session_role, "NURSE")  == 0){
         ?><hr><?php
         $i++;
     }
-    ?>
-    <button type="submit" value="Add Patient" style=" background-color:#FFBC00; color:#fff;
-	        margin-top: 15px;
-            border:2px solid #FFCB00;
-            padding:10px;
-            font-size:20px;
-            cursor:pointer;
-            border-radius:5px;
-            margin-bottom:15px" onClick="document.location.href='new_patient.php'">Add Patient</button>
-<?php
 }
 ?>
 </body>
