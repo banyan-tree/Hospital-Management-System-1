@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="64c4446a-11b8-46bd-a355-169af737015e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nurse.php" afterPath="$PROJECT_DIR$/nurse.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="secret.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,15 +98,17 @@
       <file leaf-file-name="add_staff.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/add_staff.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.25" vertical-offset="423" max-vertical-offset="1485">
-              <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+            <state vertical-scroll-proportion="-18.625" vertical-offset="423" max-vertical-offset="1485">
+              <caret line="58" column="31" selection-start-line="51" selection-start-column="40" selection-end-line="58" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#SELECT#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1429232376000" expanded="true" signature="134:160" placeholder="SELECT COUNT..staff..." />
+                <marker date="1429232376000" expanded="true" signature="484:525" placeholder="INSERT INTO ..." />
                 <marker date="1429232376000" expanded="true" signature="697:750" placeholder="INSERT INTO ..." />
+                <marker date="1429232376000" expanded="true" signature="763:789" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -145,10 +146,11 @@
       <file leaf-file-name="nurse.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nurse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5897436" vertical-offset="150" max-vertical-offset="1170">
-              <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.30769232" vertical-offset="570" max-vertical-offset="1290">
+              <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
               <folding>
-                <marker date="1429234621000" expanded="true" signature="55:105" placeholder="DELETE FROM ..." />
+                <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1429234806000" expanded="true" signature="55:105" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -539,21 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add_staff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.25" vertical-offset="423" max-vertical-offset="1485">
-          <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#SELECT#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1429232376000" expanded="true" signature="134:160" placeholder="SELECT COUNT..staff..." />
-            <marker date="1429232376000" expanded="true" signature="697:750" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="585">
@@ -643,12 +630,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/add_staff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.625" vertical-offset="423" max-vertical-offset="1485">
+          <caret line="58" column="31" selection-start-line="51" selection-start-column="40" selection-end-line="58" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#SELECT#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1429232376000" expanded="true" signature="134:160" placeholder="SELECT COUNT..staff..." />
+            <marker date="1429232376000" expanded="true" signature="484:525" placeholder="INSERT INTO ..." />
+            <marker date="1429232376000" expanded="true" signature="697:750" placeholder="INSERT INTO ..." />
+            <marker date="1429232376000" expanded="true" signature="763:789" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nurse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5897436" vertical-offset="150" max-vertical-offset="1170">
-          <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.30769232" vertical-offset="570" max-vertical-offset="1290">
+          <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
           <folding>
-            <marker date="1429234621000" expanded="true" signature="55:105" placeholder="DELETE FROM ..." />
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1429234806000" expanded="true" signature="55:105" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>

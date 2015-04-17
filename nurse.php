@@ -23,8 +23,6 @@ if (isset($_POST['admission_ID'])) {
 ////*****NURSE******\\\\\\\\
 if (strcmp($login_session_role, "NURSE")  == 0){
     ?>
-
-	    	<button type="submit" value="Add Patient" onClick="document.location.href='new_patient.php'">Add Patient</button>
 	    	<hr>
 	    	<?php
 
@@ -50,7 +48,7 @@ if (strcmp($login_session_role, "NURSE")  == 0){
         $bed_Number = mysql_result($result, $i, "bed_Number");
         $doctor = mysql_result($result, $i, "doctor");
         ?><p><?php
-        echo "<b>Admission ID: $admission_ID</b><br>Name: $name<br>Admission_Date: $admission_Date<br>Discharge Date: $date<br>Bed Number: $bed_Number<br>Doctor: $doctor<br>";
+        echo "Admission ID: $admission_ID<br><b>Name: $name</b><br>Admission_Date: $admission_Date<br>Discharge Date: $date<br>Bed Number: $bed_Number<br>Doctor: $doctor<br>";
 
         $datetime1 = new DateTime($date);
         $datetime2 = new DateTime('NOW');
@@ -67,6 +65,16 @@ if (strcmp($login_session_role, "NURSE")  == 0){
         ?><hr><?php
         $i++;
     }
+    ?>
+    <button type="submit" value="Add Patient" style=" background-color:#FFBC00; color:#fff;
+	        margin-top: 15px;
+            border:2px solid #FFCB00;
+            padding:10px;
+            font-size:20px;
+            cursor:pointer;
+            border-radius:5px;
+            margin-bottom:15px" onClick="document.location.href='new_patient.php'">Add Patient</button>
+<?php
 }
 ?>
 </body>
