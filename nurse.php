@@ -24,6 +24,7 @@ if (isset($_POST['admission_ID'])) {
 	    if (strcmp($login_session_role, "NURSE")  == 0){
 	?>
 	    	
+<<<<<<< HEAD
 	    	<button type="submit" value="Add Patient" style="float: left; background-color:#FFBC00; color:#fff;
 	        margin-top: 15px;
             border:2px solid #FFCB00;
@@ -32,6 +33,9 @@ if (isset($_POST['admission_ID'])) {
             cursor:pointer;
             border-radius:5px;
             margin-bottom:15px"onClick="document.location.href='new_patient.php'">Add Patient</button>
+=======
+	    	<button type="submit" value="Add Patient" onClick="document.location.href='new_patient.php'">Add Patient</button>
+>>>>>>> origin/master
 	    	<hr>
 	    	<?php
 	    
