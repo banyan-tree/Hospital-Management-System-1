@@ -26,7 +26,6 @@ SQL;
 
             if (!$result = $db->query($sql)) {
                 die('There was an error running the query [' . $db->error . ']');
-               // header("location:profile.php");
             } else
                 header("location: profile.php");
         }
@@ -79,11 +78,7 @@ SQL;
                 header("location: profile.php");
         }
     }
-//
-//    if (empty($_POST["patient_name"])) {
-//        echo mhere ;
-//        $nameErr = "Name is required";
-//    }
+
     if (($_POST['name'])!="") {
         $name = $_POST['name'];
         if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
@@ -109,6 +104,7 @@ SQL;
     }
 
     if (($_POST['email'])!="") {
+
         $email = $_POST['email'];
 
         $email = test_input($_POST["email"]);
@@ -269,8 +265,6 @@ function test_input($data) {
             border-radius:5px;
             margin-bottom:15px" onClick="document.location.href='profile.php'"  />
     </form>
-
-<!--    <b id="logout"><a href="logout.php">Log Out</a></b>-->
 </div>
 </body>
 </html>

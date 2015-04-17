@@ -22,23 +22,6 @@ if (isset($_POST['admission_ID'])) {
 	<?php
     	////*****NURSE******\\\\\\\\
 	    if (strcmp($login_session_role, "NURSE")  == 0){
-	?>
-	    	
-<<<<<<< HEAD
-	    	<button type="submit" value="Add Patient" style="float: left; background-color:#FFBC00; color:#fff;
-	        margin-top: 15px;
-            border:2px solid #FFCB00;
-            padding:10px;
-            font-size:20px;
-            cursor:pointer;
-            border-radius:5px;
-            margin-bottom:15px"onClick="document.location.href='new_patient.php'">Add Patient</button>
-=======
-	    	<button type="submit" value="Add Patient" onClick="document.location.href='new_patient.php'">Add Patient</button>
->>>>>>> origin/master
-	    	<hr>
-	    	<?php
-	    
         	$query="SELECT admission_ID, patient_name,";
         	$query.=" DATE_FORMAT(admission_Date, '%Y-%m-%d'),";
         	$query.=" DATE_FORMAT(discharge_Date, '%Y-%m-%d'), bed_Number,";
@@ -78,6 +61,19 @@ if (isset($_POST['admission_ID'])) {
             	?><hr><?php
 	            $i++;
     	    }
+    	    
+    		?>
+    		
+    		<button type="submit" value="Add Patient" style="float: left; background-color:#FFBC00; color:#fff;
+	        margin-top: 15px;
+            border:2px solid #FFCB00;
+            padding:10px;
+            font-size:20px;
+            cursor:pointer;
+            border-radius:5px;
+            margin-bottom:15px"onClick="document.location.href='new_patient.php'">Add Patient</button>
+            
+            <?php
     	}
 		?>
 </body>

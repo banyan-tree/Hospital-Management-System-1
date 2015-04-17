@@ -49,32 +49,22 @@ include('header.php');
 
             // DEFINE our cipher
             define('AES_256_CBC', 'aes-256-cbc');
-// Create some data to encrypt
+			
+			// Create some data to encrypt
             $data1 = $admission_ID;
             $data2 = $user_id;
-
-//            echo "Before admission_ID: $data1\n";
-//            echo "Before user_id: $data2\n";
-//            echo "\n****encryption_key****".$encryption_key;
-//            echo "\n****iv****".$iv;
-
 
 // Encrypt $data using aes-256-cbc cipher with the given encryption key and
 // our initialization vector. The 0 gives us the default options, but can
 // be changed to OPENSSL_RAW_DATA or OPENSSL_ZERO_PADDING
             $encrypted1 = openssl_encrypt($data1, AES_256_CBC, $encryption_key, 0, $iv);
-           // echo "Encrypted1: $encrypted1\n";
             $encrypted2 = openssl_encrypt($data2, AES_256_CBC, $encryption_key, 0, $iv);
-           // echo "Encrypted2: $encrypted2\n";
 
 // If we lose the $iv variable, we can't decrypt this, so append it to the
 // encrypted data with a separator that we know won't exist in base64-encoded
 // data
             $encrypted1 = $encrypted1 . ':' . $iv;
             $encrypted2 = $encrypted2 . ':' . $iv;
-
-          //  echo "Encrypted11: $encrypted1\n";
-          //  echo "Encrypted22: $encrypted2\n";
 
             ?><p><?php
 
@@ -83,7 +73,6 @@ include('header.php');
             ?></p>
 
             <form method="POST" action="edit_discharge_info.php">
-
                 <input type="HIDDEN" name="admission_ID" value=<?=$encrypted1?> />
                 <input type="HIDDEN" name="doctor_ID" value=<?=$encrypted2?> />
 
@@ -98,12 +87,10 @@ include('header.php');
             border-radius:5px;
             margin-bottom:15px" value="Edit Discharge Date">Edit Discharge Date</button>
             </form>
-
             <hr>
-
+            
             <?php
-
-            $i++;
+	            $i++;
         }
     } else {
         ?>
