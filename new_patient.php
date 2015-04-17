@@ -21,7 +21,8 @@ if (isset($_POST['new_patient'])) {
 				if ($result === FALSE) {
 					$error="Some error";
 				} else {
-					$query="INSERT INTO login values('".md5($_POST['name']);
+					$new_user = md5("p" . $num . $_POST['name']);
+					$query="INSERT INTO login values('".$new_user;
 					$query.="','".md5($_POST['name'])."','PATIENT'";
 					$query.=",'p".$num."');";
 					$result=mysql_query($query);
