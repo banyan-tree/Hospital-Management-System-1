@@ -20,7 +20,8 @@ if (isset($_POST['add_staff'])) {
 				if ($result === FALSE) {
 					$error="Some error";
 				} else {
-					$query="INSERT INTO login values('".md5($_POST['name']);
+					$new_user = md5("s" . $num . $_POST['name']);
+					$query="INSERT INTO login values('".$new_user;
 					$query.="','".md5($_POST['name'])."','".$_POST['type'];
 					$query.="','s".$num."');";
 					$result=mysql_query($query);
