@@ -21,7 +21,7 @@ include('header.php');
             border-radius:5px;
             margin-bottom:15px"  onClick="location.href='logout.php'" />
     </p>
-    <b><center>Database Output</center></b><br><br>
+    <b><center>Patient's Information</center></b><br><br>
 
     <?php
 
@@ -68,7 +68,7 @@ include('header.php');
 
             ?><p><?php
 
-            echo "<b>Name: $name</b><br>Admission Date: $date_admission<br>Discharge Date: $discharge_Date<br>Bed Number: $bed_Number<br>Staff Name: $staff_Name<br>";
+            echo "<b>Patient's Name: $name</b><br>Admission Date: $date_admission<br>Discharge Date: $discharge_Date<br>Bed Number: $bed_Number<br>Staff Name: $staff_Name<br>";
 
             ?></p>
 

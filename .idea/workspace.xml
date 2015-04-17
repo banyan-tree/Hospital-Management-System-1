@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64c4446a-11b8-46bd-a355-169af737015e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor.php" afterPath="$PROJECT_DIR$/doctor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor_Discharge.php" afterPath="$PROJECT_DIR$/doctor_Discharge.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_discharge_info.php" afterPath="$PROJECT_DIR$/edit_discharge_info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_patient.php" afterPath="$PROJECT_DIR$/new_patient.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nurse.php" afterPath="$PROJECT_DIR$/nurse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patient1.php" afterPath="$PROJECT_DIR$/patient1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reset.php" afterPath="$PROJECT_DIR$/reset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="secret.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,149 +35,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="patient.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patient.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.25" vertical-offset="15" max-vertical-offset="945">
-              <caret line="51" column="27" selection-start-line="45" selection-start-column="10" selection-end-line="52" selection-end-column="3" />
-              <folding>
-                <marker date="1429234404000" expanded="true" signature="156:2341" placeholder="..." />
-                <marker date="1429234404000" expanded="true" signature="227:531" placeholder="SELECT patie..personal_info..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="doctor_Discharge.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doctor_Discharge.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="1770">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="44" selection-end-line="21" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1429234404000" expanded="true" signature="833:1029" placeholder="select admis..doctor_patient_discharge..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="900">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="21" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="patient1.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="patient1.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/patient1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="4125">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.63235295" vertical-offset="2973" max-vertical-offset="3870">
+              <caret line="238" column="73" selection-start-line="238" selection-start-column="68" selection-end-line="238" selection-end-column="73" />
               <folding>
-                <element signature="n#style#0;n#button#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#9;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="585">
-              <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_staff.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/add_staff.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.625" vertical-offset="423" max-vertical-offset="1485">
-              <caret line="58" column="31" selection-start-line="51" selection-start-column="40" selection-end-line="58" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#SELECT#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1429232376000" expanded="true" signature="134:160" placeholder="SELECT COUNT..staff..." />
-                <marker date="1429232376000" expanded="true" signature="484:525" placeholder="INSERT INTO ..." />
-                <marker date="1429232376000" expanded="true" signature="697:750" placeholder="INSERT INTO ..." />
-                <marker date="1429232376000" expanded="true" signature="763:789" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="global_reset.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/global_reset.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.75" vertical-offset="543" max-vertical-offset="1230">
-              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1429232376000" expanded="true" signature="397:434" placeholder="UPDATE login..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reset.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reset.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.5294118" vertical-offset="450" max-vertical-offset="1035">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1429232376000" expanded="true" signature="366:403" placeholder="UPDATE login..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nurse.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nurse.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30769232" vertical-offset="570" max-vertical-offset="1290">
-              <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1429234806000" expanded="true" signature="55:105" placeholder="DELETE FROM ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_patient.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new_patient.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.75" vertical-offset="708" max-vertical-offset="1380">
-              <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#6;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1429232376000" expanded="true" signature="225:260" placeholder="SELECT COUNT..patient_record..." />
-                <marker date="1429232376000" expanded="true" signature="470:506" placeholder="INSERT INTO ..." />
-                <marker date="1429232376000" expanded="true" signature="817:843" placeholder="INSERT INTO ..." />
+                <marker date="1429238384000" expanded="true" signature="6045:6349" placeholder="SELECT patie..personal_info..." />
               </folding>
             </state>
           </provider>
@@ -184,19 +56,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/session.php" />
-        <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/edit_discharge_info.php" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/patient.php" />
         <option value="$PROJECT_DIR$/profile.php" />
-        <option value="$PROJECT_DIR$/new_patient.php" />
-        <option value="$PROJECT_DIR$/doctor.php" />
-        <option value="$PROJECT_DIR$/doctor_Discharge.php" />
         <option value="$PROJECT_DIR$/admin.php" />
         <option value="$PROJECT_DIR$/add_staff.php" />
         <option value="$PROJECT_DIR$/global_reset.php" />
-        <option value="$PROJECT_DIR$/reset.php" />
+        <option value="$PROJECT_DIR$/edit_discharge_info.php" />
+        <option value="$PROJECT_DIR$/new_patient.php" />
+        <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/patient1.php" />
+        <option value="$PROJECT_DIR$/reset.php" />
+        <option value="$PROJECT_DIR$/doctor_Discharge.php" />
+        <option value="$PROJECT_DIR$/doctor.php" />
         <option value="$PROJECT_DIR$/nurse.php" />
       </list>
     </option>
@@ -349,10 +221,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1260">
           <caret line="64" column="31" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="31" />
-          <folding>
-            <marker date="1429234404000" expanded="true" signature="156:2341" placeholder="..." />
-            <marker date="1429234404000" expanded="true" signature="227:531" placeholder="SELECT patie..personal_info..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -361,9 +230,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="1605">
           <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
           <folding>
-            <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1429234404000" expanded="true" signature="833:1029" placeholder="select admis..doctor_patient_discharge..." />
+            <marker date="1429238902000" expanded="true" signature="-1:-1" placeholder="select admis..doctor_patient_discharge..." />
           </folding>
         </state>
       </provider>
@@ -373,8 +240,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1650">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="2" selection-end-line="15" selection-end-column="40" />
           <folding>
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="UPDATE disch..." />
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select patie..doctor_patient_discharge..." />
+            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1429237491000" expanded="true" signature="-1:-1" placeholder="UPDATE disch..." />
+            <marker date="1429237491000" expanded="true" signature="-1:-1" placeholder="select patie..doctor_patient_discharge..." />
           </folding>
         </state>
       </provider>
@@ -384,10 +252,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3855">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#9;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1429238384000" expanded="true" signature="6045:6349" placeholder="SELECT patie..personal_info..." />
           </folding>
         </state>
       </provider>
@@ -410,7 +275,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="840">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <marker date="1429234404000" expanded="true" signature="-1:-1" placeholder="select * fro..login..." />
+            <marker date="1429237491000" expanded="true" signature="-1:-1" placeholder="select * fro..login..." />
           </folding>
         </state>
       </provider>
@@ -419,10 +284,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1155" max-vertical-offset="1410">
           <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
-          <folding>
-            <marker date="1429234404000" expanded="true" signature="156:2341" placeholder="..." />
-            <marker date="1429234404000" expanded="true" signature="227:531" placeholder="SELECT patie..personal_info..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -444,10 +306,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3810">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#9;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1429238384000" expanded="true" signature="6045:6349" placeholder="SELECT patie..personal_info..." />
           </folding>
         </state>
       </provider>
@@ -457,8 +316,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select patie..doctor_patient_info..." />
+            <marker date="1429238916000" expanded="true" signature="-1:-1" placeholder="select patie..doctor_patient_info..." />
           </folding>
         </state>
       </provider>
@@ -477,101 +335,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="675">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select usern..login..." />
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select level..doctor..." />
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select addre..patient..." />
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select duty ..nurse..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="840">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <marker date="1429234404000" expanded="true" signature="-1:-1" placeholder="select * fro..login..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edit_discharge_info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1650">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="2" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="UPDATE disch..." />
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select patie..doctor_patient_discharge..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.222221" vertical-offset="285" max-vertical-offset="1290">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="11" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doctor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.25" vertical-offset="288" max-vertical-offset="900">
-          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select patie..doctor_patient_info..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.25" vertical-offset="15" max-vertical-offset="945">
-          <caret line="51" column="27" selection-start-line="45" selection-start-column="10" selection-end-line="52" selection-end-column="3" />
-          <folding>
-            <marker date="1429234404000" expanded="true" signature="156:2341" placeholder="..." />
-            <marker date="1429234404000" expanded="true" signature="227:531" placeholder="SELECT patie..personal_info..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="585">
-          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="900">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doctor_Discharge.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="1770">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="44" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1429234404000" expanded="true" signature="833:1029" placeholder="select admis..doctor_patient_discharge..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,78 +350,140 @@
           <folding>
             <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1429232376000" expanded="true" signature="397:434" placeholder="UPDATE login..." />
+            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="UPDATE login..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reset.php">
+    <entry file="file://$PROJECT_DIR$/session.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.5294118" vertical-offset="450" max-vertical-offset="1035">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.20588236" vertical-offset="39" max-vertical-offset="675">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="15" />
           <folding>
-            <element signature="n#style#0;n#input#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1429232376000" expanded="true" signature="366:403" placeholder="UPDATE login..." />
+            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select usern..login..." />
+            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select level..doctor..." />
+            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select addre..patient..." />
+            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select duty ..nurse..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.25" vertical-offset="15" max-vertical-offset="945">
+          <caret line="51" column="27" selection-start-line="45" selection-start-column="10" selection-end-line="52" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_discharge_info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74509805" vertical-offset="1044" max-vertical-offset="1785">
+          <caret line="114" column="73" selection-start-line="114" selection-start-column="73" selection-end-line="114" selection-end-column="73" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1429237491000" expanded="true" signature="-1:-1" placeholder="UPDATE disch..." />
+            <marker date="1429237491000" expanded="true" signature="-1:-1" placeholder="select patie..doctor_patient_discharge..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new_patient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.75" vertical-offset="708" max-vertical-offset="1380">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+        <state vertical-scroll-proportion="-0.88235295" vertical-offset="0" max-vertical-offset="1965">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
           <folding>
-            <element signature="n#style#0;n#input#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1429237491000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..patient_record..." />
+            <marker date="1429237491000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1429237491000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.625" vertical-offset="213" max-vertical-offset="825">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding>
+            <marker date="1429237491000" expanded="true" signature="-1:-1" placeholder="select * fro..login..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doctor_Discharge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="795" max-vertical-offset="1455">
+          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+          <folding>
+            <marker date="1429238902000" expanded="true" signature="-1:-1" placeholder="select admis..doctor_patient_discharge..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.625" vertical-offset="255" max-vertical-offset="945">
+          <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+          <folding>
             <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#6;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1429232376000" expanded="true" signature="225:260" placeholder="SELECT COUNT..patient_record..." />
-            <marker date="1429232376000" expanded="true" signature="470:506" placeholder="INSERT INTO ..." />
-            <marker date="1429232376000" expanded="true" signature="817:843" placeholder="INSERT INTO ..." />
+            <marker date="1429238447000" expanded="true" signature="-1:-1" placeholder="select passw..login..." />
+            <marker date="1429238447000" expanded="true" signature="-1:-1" placeholder="UPDATE login..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patient1.php">
+    <entry file="file://$PROJECT_DIR$/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="4125">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#9;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="375">
+          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add_staff.php">
+    <entry file="file://$PROJECT_DIR$/profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.625" vertical-offset="423" max-vertical-offset="1485">
-          <caret line="58" column="31" selection-start-line="51" selection-start-column="40" selection-end-line="58" selection-end-column="31" />
+        <state vertical-scroll-proportion="-6.5" vertical-offset="54" max-vertical-offset="690">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doctor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.375" vertical-offset="129" max-vertical-offset="795">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="50" />
           <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#SELECT#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1429232376000" expanded="true" signature="134:160" placeholder="SELECT COUNT..staff..." />
-            <marker date="1429232376000" expanded="true" signature="484:525" placeholder="INSERT INTO ..." />
-            <marker date="1429232376000" expanded="true" signature="697:750" placeholder="INSERT INTO ..." />
-            <marker date="1429232376000" expanded="true" signature="763:789" placeholder="INSERT INTO ..." />
+            <marker date="1429238916000" expanded="true" signature="-1:-1" placeholder="select patie..doctor_patient_info..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nurse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30769232" vertical-offset="570" max-vertical-offset="1290">
-          <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
+        <state vertical-scroll-proportion="-3.8235295" vertical-offset="240" max-vertical-offset="1185">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="17" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1429234806000" expanded="true" signature="55:105" placeholder="DELETE FROM ..." />
+            <marker date="1429239092000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_staff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31862745" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#input#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patient1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63235295" vertical-offset="2973" max-vertical-offset="3870">
+          <caret line="238" column="73" selection-start-line="238" selection-start-column="68" selection-end-line="238" selection-end-column="73" />
+          <folding>
+            <marker date="1429238384000" expanded="true" signature="6045:6349" placeholder="SELECT patie..personal_info..." />
           </folding>
         </state>
       </provider>

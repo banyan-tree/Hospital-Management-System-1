@@ -85,6 +85,9 @@ SQL;
             $nameErr = "Only letters and white space allowed";
            // echo $nameErr;
         }
+//        elseif(strcmp($_POST['name']{
+//
+//        }
         else{
             //MySqli Update Query
             $db = new mysqli('localhost', 'root', 'infinite', 'test');
@@ -218,6 +221,7 @@ function test_input($data) {
             die("More than 1 user returned");
         } else {
             $name = mysql_result($result, $i, "patient_name");
+            echo $name;
             $age = mysql_result($result, $i, "patient_Age");
             $email = mysql_result($result, $i, "patient_Email_ID");
             $contact = mysql_result($result, $i, "patient_Contact");
@@ -232,7 +236,7 @@ function test_input($data) {
     }
     ?>
     <form name="form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-        Name: <input type="text" name="name" placeholder=<?php echo $name; ?> style="width: 150px;">
+        Name: <input type="text" name="name" placeholder=<?php echo $name; ?> style="width: 200px;">
         <span class="error"> <?php echo "*".$nameErr;?></span>
         <br>
         Age: <input type="text" name="age" placeholder=<?php echo $age; ?> style="width: 150px;">

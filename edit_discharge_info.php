@@ -61,8 +61,17 @@ include('header.php');
 <body>
 	<div id="profile">
 	    <b id="welcome">Welcome : <i><?php echo ucwords($user_name); ?></i></b>
+        <p align="right">
+            <input align="right" type="button" value="Logout" style=" background-color:#FFBC00; color:#fff;
+	        margin-top: 15px;
+            border:2px solid #FFCB00;
+            padding:10px;
+            font-size:20px;
+            cursor:pointer;
+            border-radius:5px;
+            margin-bottom:15px" onClick="location.href='logout.php'" />
+        </p>
 		<b><center>Edit Personal Info</center></b><br><br>
-
     	<?php
     	if (strcmp($login_session_role, "DOCTOR")  == 0) {
 	        $query = "select patient_name, DATE_FORMAT(admission_Date, '%Y-%m-%d'), DATE_FORMAT(discharge_Date, '%Y-%m-%d'), bed_Number, staff_Name from doctor_patient_discharge where doctor_ID='$user_id' AND admission_ID='$admission'";
@@ -95,11 +104,25 @@ include('header.php');
 			<input type=HIDDEN name="admission_ID" value=<?=$admission;?>>
 			<input type=HIDDEN name="admission_Date" value=<?=$admission_Date;?>>
 			<div style="float:left;">
-				<button name="edit" type="submit" value="Submit">Submit</button>
-				<input name="cancel" type="button" value="Cancel" onClick="document.location.href='doctor_Discharge.php'" />
+				<button name="edit" type="submit" style=" background-color:#FFBC00; color:#fff;
+	        margin-top: 15px;
+            border:2px solid #FFCB00;
+            padding:10px;
+            font-size:20px;
+            cursor:pointer;
+            border-radius:5px;
+            margin-bottom:15px"  value="Submit">Submit</button>
+				<input name="cancel" type="button" value="Cancel" style=" background-color:#FFBC00; color:#fff;
+	        margin-top: 15px;
+            border:2px solid #FFCB00;
+            padding:10px;
+            font-size:20px;
+            cursor:pointer;
+            border-radius:5px;
+            margin-bottom:15px"  onClick="document.location.href='doctor_Discharge.php'" />
 			</div>
 		</form>
-		<input type="button" value="Logout" onClick="location.href='logout.php'" />
+
 	</div>
 </body>
 </html>
