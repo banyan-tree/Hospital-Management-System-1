@@ -1,47 +1,47 @@
 <?php
-
+ob_start();
 include('session.php');
 if (isset($_POST['new_patient'])) {
 
-    echo "val1".$_POST['address'];
-        if (($_POST['age'])!="") {
-            $age = $_POST['age'];
-            if (!preg_match("/^[0-9]{2}$/", $age)) {
-                $ageErr = "Error in age input";
-            }
-        }
-        if (($_POST['phone'])!="") {
-            $contact = $_POST['phone'];
-            //echo $contact;
-            if (!(preg_match("/[^0-9]{10}$/", $contact))) {
-                $contactErr = "Only numbers allowed";
-            }
-        }
-        if (($_POST['address'])!="") {
-            $address = $_POST['address'];
-            $regex = '/^[A-Za-z0-9\-\\,.]+$/';
-            if (!preg_match($regex, $address)) {
-                $addressErr = "Invalid Address";
-            }
-        }
-        if (($_POST['name'])!="") {
-            $name = $_POST['name'];
-
-            if (!preg_match("/^[a-zA-Z ]*$/", $name)) {
-                echo "in here";
-                $nameErr = "Only letters and white space allowed";
-                // echo $nameErr;
-            }
-        }
-        if (($_POST['email'])!="") {
-
-            $email = $_POST['email'];
-
-            $email = test_input($_POST["email"]);
-            if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                $emailErr = "Invalid email format";
-            }
-        }
+    // echo "val1".$_POST['address'];
+//         if (($_POST['age'])!="") {
+//             $age = $_POST['age'];
+//             if (!preg_match("/^[0-9]{2}$/", $age)) {
+//                 $ageErr = "Error in age input";
+//             }
+//         }
+//         if (($_POST['phone'])!="") {
+//             $contact = $_POST['phone'];
+//             //echo $contact;
+//             if (!(preg_match("/[^0-9]{10}$/", $contact))) {
+//                 $contactErr = "Only numbers allowed";
+//             }
+//         }
+//         if (($_POST['address'])!="") {
+//             $address = $_POST['address'];
+//             $regex = '/^[A-Za-z0-9\-\\,.]+$/';
+//             if (!preg_match($regex, $address)) {
+//                 $addressErr = "Invalid Address";
+//             }
+//         }
+//         if (($_POST['name'])!="") {
+//             $name = $_POST['name'];
+// 
+//             if (!preg_match("/^[a-zA-Z ]*$/", $name)) {
+//                 echo "in here";
+//                 $nameErr = "Only letters and white space allowed";
+//                 // echo $nameErr;
+//             }
+//         }
+//         if (($_POST['email'])!="") {
+// 
+//             $email = $_POST['email'];
+// 
+//             $email = test_input($_POST["email"]);
+//             if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+//                 $emailErr = "Invalid email format";
+//             }
+//         }
 
 //        if ((c)!="") {
 //            $age = $_POST['age'];
@@ -116,11 +116,11 @@ if (isset($_POST['new_patient'])) {
 					    	$error="Can't retrieve list";
 					    } else {
 					    	if($row = mysql_fetch_assoc($result)){
-						    	$num1 = $row['COUNT(*)'];
-						    	$num1 = (intval($num1)+1);
+						    	$cnum = $row['COUNT(*)'];
+						    	$cnum = (intval($cnum)+1);
 						    	$datetime=new DateTime('NOW');
 			    				$datetime=$datetime->format('Y-m-d');
-						    	$query="INSERT INTO prescription VALUES('c".$num1;
+						    	$query="INSERT INTO prescription VALUES('c".$cnum;
 		    	$query.="', '$datetime', '".$_POST['diagnosis']."',";
 			    $query.=" '".$_POST['drugs']."', '".$_POST['insurance_Company']."',";
 			    $query.=" '".$_POST['insurance_id']."', '$user_id', 'p".$num."');";
@@ -128,8 +128,27 @@ if (isset($_POST['new_patient'])) {
 								if ($result === FALSE) {
 									$error="Some error";
 								} else {
-									header("location: profile.php");
+									$query="SELECT COUNT(*) FROM discharge_sheet;";
+	    							$result=mysql_query($query);
+								    if ($result === FALSE) {
+								    	$error="Can't retrieve list";
+								    } else {
+								    	if($row = mysql_fetch_assoc($result)){
+									    	$anum = $row['COUNT(*)'];
+									    	$anum = (intval($anum)+1);
+										    $discharge=new DateTime('NOW');
+											$discharge->modify('+5 day');
+											$discharge = $discharge->format('Y-m-d');
+											$query="INSERT INTO discharge_sheet VALUES('a". $anum."', 'p" . $num . "', '" . $datetime . "', '".$discharge."', ".$_POST['bed'].", '$user_id', '".$_POST['nurse']."');";
+											$result=mysql_query($query);
+											if ($result === FALSE) {
+												$error="Some error";
+											} else {
+												header("location: profile.php");
+											}
+										}
 									}
+								}
 							} else {
 								$error="Wrong count1";
 							}
@@ -145,6 +164,14 @@ else {
 		$error="Name, Email, Address, Phone or Age cannot be blank";
 	}
 }
+
+function test_input($data) {
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}
+
 include('header.php');
 ?>
 <!DOCTYPE html>
@@ -216,6 +243,36 @@ include('header.php');
                             <tr>
                                 <td align=left width = "15%" ><font size=5>Insurance ID: </font> </td>
                                 <td align=left width = "35%"><input type="text" name="insurance_id" style="width: 150px;"></td>
+                            </tr>
+                            <tr>
+                            	<td align=left width = "15%" ><font size=5>Nurse: </font> </td>
+                            	<td align=left width = "35%"><SELECT NAME="nurse" style="
+	        margin-top: 15px;
+            border:2px solid #FFCB00;
+            padding:10px;
+            font-size:20px;
+            cursor:pointer;
+            border-radius:5px;
+            margin-bottom:15px" >
+
+            		<?php
+            		
+            			$query="SELECT staff_ID, staff_Name FROM staff WHERE";
+            			$query.=" designatoin='NURSE';";
+            			$result = mysql_query($query);
+			            if ($result === FALSE) {
+            			    die(mysql_error());
+			            }
+			            while ($row = mysql_fetch_assoc($result)) {
+			            	echo '<option   value="'.$row["staff_ID"].'">'.ucwords($row["staff_Name"]).'</option>';
+						}
+						?>
+				</SELECT></td>
+							</tr>
+							
+							<tr>
+                                <td align=left width = "15%" ><font size=5>Bed No: </font> </td>
+                                <td align=left width = "35%"><input type="text" name="bed" style="width: 150px;"></td>
                             </tr>
 
                         </table>

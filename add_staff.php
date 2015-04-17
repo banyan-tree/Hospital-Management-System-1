@@ -44,7 +44,7 @@ include('header.php');
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Add Doctor</title>
+    <title>Add Staff</title>
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
