@@ -20,11 +20,15 @@ if (isset($_POST['new_patient'])) {
 				if ($result === FALSE) {
 					$error="Some error";
 				} else {
-				
-//	need to insert values in to login after talking to varun
-//	INSERT INTO login values('','','','s'+num);
-				
-					header("location: profile.php");
+					$query="INSERT INTO login values('".md5($_POST['name']);
+					$query.="','".md5($_POST['name'])."','".$_POST['type'];
+					$query.="','s".$num."');";
+					$result=mysql_query($query);
+					if ($result === FALSE) {
+						$error="Login not updated";
+					} else {
+						header("location: profile.php");
+					}
 				}
 			} else {
 				$error="Wrong count";

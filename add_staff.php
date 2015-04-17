@@ -10,20 +10,25 @@ if (isset($_POST['add_staff'])) {
 	    } else {
 	    	if($row = mysql_fetch_assoc($result)){
 		    	$num = $row['COUNT(*)'];
+		    	$num=(intval($num)+1);
 			    $datetime=new DateTime('NOW');
 			    $datetime=$datetime->format('Y-m-d');;
-			    $query="INSERT INTO staff VALUES('s" . (intval($num)+1) . "',";
+			    $query="INSERT INTO staff VALUES('s" . $num . "',";
 		    	$query.="'".$_POST['name']."', '".$_POST['email']."',";
 			    $query.=" '".$_POST['type']."', '$datetime');";
 			    $result=mysql_query($query);
 				if ($result === FALSE) {
 					$error="Some error";
 				} else {
-				
-//	need to insert values in to login after talking to varun
-//	INSERT INTO login values('','','','s'+num);
-				
-					header("location: profile.php");
+					$query="INSERT INTO login values('".md5($_POST['name']);
+					$query.="','".md5($_POST['name'])."','".$_POST['type'];
+					$query.="','s".$num."');";
+					$result=mysql_query($query);
+					if ($result === FALSE) {
+						$error="Login not updated";
+					} else {
+						header("location: profile.php");
+					}
 				}
 			} else {
 				$error="Wrong count";
