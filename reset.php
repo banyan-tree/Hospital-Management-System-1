@@ -55,6 +55,7 @@ include('header.php');
             margin-bottom:15px" value="Logout" onClick="location.href='logout.php'" />
     </p>
 	Username: <?php echo $user_name;?><br>
+    Old Password: <input type="password" name="old-password" style="width: 150px;"><br>
 	New Password: <input type="password" name="new-password" style="width: 150px;"><br>
 	Retype Password: <input type="password" name="re-password" style="width: 150px;"><br>
 	<input name="reset" type="submit" value="Submit" style="width: 100px;">

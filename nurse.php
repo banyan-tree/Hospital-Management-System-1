@@ -18,7 +18,7 @@ if (isset($_POST['admission_ID'])) {
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<b><center>Database Output</center></b><br><br>
+<b><center>Patient's Information</center></b><br><br>
 <?php
 ////*****NURSE******\\\\\\\\
 if (strcmp($login_session_role, "NURSE")  == 0){
@@ -48,7 +48,7 @@ if (strcmp($login_session_role, "NURSE")  == 0){
         $bed_Number = mysql_result($result, $i, "bed_Number");
         $doctor = mysql_result($result, $i, "doctor");
         ?><p><?php
-        echo "Admission ID: $admission_ID<br><b>Name: $name</b><br>Admission_Date: $admission_Date<br>Discharge Date: $date<br>Bed Number: $bed_Number<br>Doctor: $doctor<br>";
+        echo "<b>Name: $name</b><br>Admission ID: $admission_ID<br>Admission_Date: $admission_Date<br>Discharge Date: $date<br>Bed Number: $bed_Number<br>Doctor: $doctor<br>";
 
         $datetime1 = new DateTime($date);
         $datetime2 = new DateTime('NOW');

@@ -20,7 +20,7 @@
                 die(mysql_error());
             }
             $num = mysql_numrows($result);
-            echo "<b><center>Database Output</center></b><br><br>";
+            echo "<b><center>Patient's Information</center></b><br><br>";
             $i = 0;
             while ($i < $num) {
                 $name = mysql_result($result, $i, "patient_name");
@@ -30,7 +30,7 @@
                 $diag = mysql_result($result, $i, "diagnosis");
                 $drugs = mysql_result($result, $i, "drugs");
 
-                echo "<b> $name</b><br>Age: $age<br>Email: $email<br>Prescription  Date: $date<br>Diagnosis: $diag<br>
+                echo "<b>Patient's Name: $name</b><br>Age: $age<br>Email: $email<br>Prescription  Date: $date<br>Diagnosis: $diag<br>
             Drugs: $drugs<br><hr><br>";
 
                 $i++;
