@@ -2,8 +2,8 @@
 include('session.php');
 
 // define variables and set to empty values
-$nameErr = $emailErr  = $contactErr = $ageErr = $addressErr = $insuranceCompErr = $insuranceIDErr = "" ;
-$name = $email = $gender = $comment = $website = "";
+$nameErr = $emailErr  = $contactErr = $ageErr = $addressErr = $insuranceIDErr = "" ;
+$name = $email = "";
 
 if (isset($_POST['hero'])) {
     $id = $_POST['patient_ID'];
@@ -33,7 +33,7 @@ SQL;
 
  if (($_POST['contact'])!="") {
      $contact = $_POST['contact'];
-     echo $contact;
+     //echo $contact;
      if((preg_match("/[^0-9]{10}$/", $contact))) {
          $contactErr = "Only numbers allowed";
      }
@@ -81,28 +81,25 @@ SQL;
 
     if (($_POST['name'])!="") {
         $name = $_POST['name'];
-        if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
-            $nameErr = "Only letters and white space allowed";
-           // echo $nameErr;
-        }
-//        elseif(strcmp($_POST['name']{
-//
-//        }
-        else{
-            //MySqli Update Query
-            $db = new mysqli('localhost', 'root', 'infinite', 'test');
-            $sql = <<<SQL
+
+            if (!preg_match("/^[a-zA-Z ]*$/", $name)) {
+                $nameErr = "Only letters and white space allowed";
+                // echo $nameErr;
+            } else {
+                //MySqli Update Query
+                $db = new mysqli('localhost', 'root', 'infinite', 'test');
+                $sql = <<<SQL
         UPDATE `patient_record`
         SET `patient_name` = '$name'
         WHERE `patient_ID`= '$id';
 
 SQL;
 
-            if (!$result1 = $db->query($sql)) {
-                die('There was an error running the query [' . $db->error . ']');
-            } else
-                header("location: profile.php");
-        }
+                if (!$result1 = $db->query($sql)) {
+                    die('There was an error running the query [' . $db->error . ']');
+                } else
+                    header("location: profile.php");
+            }
 
     }
 
@@ -221,7 +218,7 @@ function test_input($data) {
             die("More than 1 user returned");
         } else {
             $name = mysql_result($result, $i, "patient_name");
-            echo $name;
+            //echo $name;
             $age = mysql_result($result, $i, "patient_Age");
             $email = mysql_result($result, $i, "patient_Email_ID");
             $contact = mysql_result($result, $i, "patient_Contact");
@@ -253,7 +250,6 @@ function test_input($data) {
         <br>
         Insurance Company: <input type="text" name="insuranceCompany"
                                   placeholder=<?php echo $insurance_Company; ?> style="width: 150px;" >
-        <span class="error"> <?php echo "*".$insuranceCompErr;?></span>
         <br>
         Insurance ID: <input type="text" name="insuranceID" placeholder=<?php echo $insurance_ID; ?> style="width: 150px;" >
         <span class="error"> <?php echo "*".$insuranceIDErr;?></span>
