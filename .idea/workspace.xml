@@ -32,10 +32,10 @@
       <file leaf-file-name="patient1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/patient1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="17.352942" vertical-offset="3060" max-vertical-offset="3810">
-              <caret line="145" column="40" selection-start-line="145" selection-start-column="38" selection-end-line="145" selection-end-column="40" />
+            <state vertical-scroll-proportion="-5.0" vertical-offset="2190" max-vertical-offset="4050">
+              <caret line="163" column="9" selection-start-line="158" selection-start-column="7" selection-end-line="163" selection-end-column="9" />
               <folding>
-                <marker date="1429241521000" expanded="true" signature="5984:6288" placeholder="SELECT patie..personal_info..." />
+                <marker date="1429316732000" expanded="true" signature="6406:6710" placeholder="SELECT patie..personal_info..." />
               </folding>
             </state>
           </provider>
@@ -44,9 +44,10 @@
       <file leaf-file-name="new_patient.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/new_patient.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12820514" vertical-offset="0" max-vertical-offset="3390">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.34313726" vertical-offset="825" max-vertical-offset="4425">
+              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
               <folding>
+                <element signature="n#style#0;n#input#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#td#1;n#tr#1;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -57,11 +58,30 @@
                 <element signature="n#style#0;n#input#0;n#td#1;n#tr#6;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#td#1;n#tr#7;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#td#1;n#tr#8;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1429242593000" expanded="true" signature="2808:2843" placeholder="SELECT COUNT..patient_record..." />
-                <marker date="1429242593000" expanded="true" signature="3085:3121" placeholder="INSERT INTO ..." />
-                <marker date="1429242593000" expanded="true" signature="3420:3446" placeholder="INSERT INTO ..." />
-                <marker date="1429242593000" expanded="true" signature="3671:3704" placeholder="SELECT COUNT..prescription..." />
-                <marker date="1429242593000" expanded="true" signature="4073:4107" placeholder="INSERT INTO ..." />
+                <element signature="n#style#0;n#SELECT#0;n#td#1;n#tr#9;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#1;n#tr#10;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1429316933000" expanded="true" signature="2479:2514" placeholder="SELECT COUNT..patient_record..." />
+                <marker date="1429316933000" expanded="true" signature="2756:2792" placeholder="INSERT INTO ..." />
+                <marker date="1429316933000" expanded="true" signature="3142:3168" placeholder="INSERT INTO ..." />
+                <marker date="1429316933000" expanded="true" signature="3383:3416" placeholder="SELECT COUNT..prescription..." />
+                <marker date="1429316933000" expanded="true" signature="3785:3819" placeholder="INSERT INTO ..." />
+                <marker date="1429316933000" expanded="true" signature="3979:4005" placeholder="INSERT INTO ..." />
+                <marker date="1429316933000" expanded="true" signature="4174:4210" placeholder="SELECT COUNT..discharge_sheet..." />
+                <marker date="1429316933000" expanded="true" signature="4648:4807" placeholder="INSERT INTO ..." />
+                <marker date="1429316933000" expanded="true" signature="5174:5208" placeholder="INSERT INTO ..." />
+                <marker date="1429316933000" expanded="true" signature="10383:10427" placeholder="SELECT staff..staff..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-23.0" vertical-offset="108" max-vertical-offset="825">
+              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding>
+                <marker date="1429237491000" expanded="true" signature="938:1009" placeholder="select * fro..login..." />
               </folding>
             </state>
           </provider>
@@ -125,6 +145,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -145,7 +166,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,13 +227,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -237,11 +257,104 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/patient1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3060" max-vertical-offset="3810">
+          <caret line="145" column="40" selection-start-line="145" selection-start-column="38" selection-end-line="145" selection-end-column="40" />
+          <folding>
+            <marker date="1429316732000" expanded="true" signature="6406:6710" placeholder="SELECT patie..personal_info..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_patient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="3390">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#1;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#2;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#3;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#4;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#5;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#6;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#7;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#8;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#SELECT#0;n#td#1;n#tr#9;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#10;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1429316933000" expanded="true" signature="2479:2514" placeholder="SELECT COUNT..patient_record..." />
+            <marker date="1429316933000" expanded="true" signature="2756:2792" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="3142:3168" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="3383:3416" placeholder="SELECT COUNT..prescription..." />
+            <marker date="1429316933000" expanded="true" signature="3785:3819" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="3979:4005" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="4174:4210" placeholder="SELECT COUNT..discharge_sheet..." />
+            <marker date="1429316933000" expanded="true" signature="4648:4807" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="5174:5208" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="10383:10427" placeholder="SELECT staff..staff..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1429237491000" expanded="true" signature="938:1009" placeholder="select * fro..login..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patient1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3060" max-vertical-offset="3810">
+          <caret line="145" column="40" selection-start-line="145" selection-start-column="38" selection-end-line="145" selection-end-column="40" />
+          <folding>
+            <marker date="1429316732000" expanded="true" signature="6406:6710" placeholder="SELECT patie..personal_info..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_patient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3390">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#1;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#2;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#3;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#4;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#5;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#6;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#7;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#8;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#SELECT#0;n#td#1;n#tr#9;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#10;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1429316933000" expanded="true" signature="2479:2514" placeholder="SELECT COUNT..patient_record..." />
+            <marker date="1429316933000" expanded="true" signature="2756:2792" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="3142:3168" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="3383:3416" placeholder="SELECT COUNT..prescription..." />
+            <marker date="1429316933000" expanded="true" signature="3785:3819" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="3979:4005" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="4174:4210" placeholder="SELECT COUNT..discharge_sheet..." />
+            <marker date="1429316933000" expanded="true" signature="4648:4807" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="5174:5208" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="10383:10427" placeholder="SELECT staff..staff..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/patient.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1260">
           <caret line="64" column="31" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -249,9 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="1605">
           <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
-          <folding>
-            <marker date="1429238902000" expanded="true" signature="-1:-1" placeholder="select admis..doctor_patient_discharge..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -259,11 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1650">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="2" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1429237491000" expanded="true" signature="-1:-1" placeholder="UPDATE disch..." />
-            <marker date="1429237491000" expanded="true" signature="-1:-1" placeholder="select patie..doctor_patient_discharge..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -272,7 +377,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3855">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1429241521000" expanded="true" signature="5984:6288" placeholder="SELECT patie..personal_info..." />
+            <marker date="1429316732000" expanded="true" signature="6406:6710" placeholder="SELECT patie..personal_info..." />
           </folding>
         </state>
       </provider>
@@ -281,12 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="675">
           <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select usern..login..." />
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select level..doctor..." />
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select addre..patient..." />
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select duty ..nurse..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -295,7 +394,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="840">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <marker date="1429237491000" expanded="true" signature="-1:-1" placeholder="select * fro..login..." />
+            <marker date="1429237491000" expanded="true" signature="938:1009" placeholder="select * fro..login..." />
           </folding>
         </state>
       </provider>
@@ -304,7 +403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1155" max-vertical-offset="1410">
           <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -312,12 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="720">
           <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding>
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select usern..login..." />
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select level..doctor..." />
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select addre..patient..." />
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select duty ..nurse..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -326,7 +418,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3810">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1429241521000" expanded="true" signature="5984:6288" placeholder="SELECT patie..personal_info..." />
+            <marker date="1429316732000" expanded="true" signature="6406:6710" placeholder="SELECT patie..personal_info..." />
           </folding>
         </state>
       </provider>
@@ -335,9 +427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1429240225000" expanded="true" signature="-1:-1" placeholder="select patie..doctor_patient_info..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -359,7 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.222221" vertical-offset="285" max-vertical-offset="1290">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -367,11 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.75" vertical-offset="543" max-vertical-offset="1230">
           <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="UPDATE login..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -379,12 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20588236" vertical-offset="39" max-vertical-offset="675">
           <caret line="11" column="15" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select usern..login..." />
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select level..doctor..." />
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select addre..patient..." />
-            <marker date="1429232376000" expanded="true" signature="-1:-1" placeholder="select duty ..nurse..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -392,7 +469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-31.25" vertical-offset="15" max-vertical-offset="945">
           <caret line="51" column="27" selection-start-line="45" selection-start-column="10" selection-end-line="52" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -400,21 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.74509805" vertical-offset="1044" max-vertical-offset="1785">
           <caret line="114" column="73" selection-start-line="114" selection-start-column="73" selection-end-line="114" selection-end-column="73" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1429237491000" expanded="true" signature="-1:-1" placeholder="UPDATE disch..." />
-            <marker date="1429237491000" expanded="true" signature="-1:-1" placeholder="select patie..doctor_patient_discharge..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.625" vertical-offset="213" max-vertical-offset="825">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding>
-            <marker date="1429237491000" expanded="true" signature="-1:-1" placeholder="select * fro..login..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -422,9 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.25" vertical-offset="795" max-vertical-offset="1455">
           <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-          <folding>
-            <marker date="1429238902000" expanded="true" signature="-1:-1" placeholder="select admis..doctor_patient_discharge..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -432,11 +490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.625" vertical-offset="255" max-vertical-offset="945">
           <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1429240225000" expanded="true" signature="-1:-1" placeholder="select passw..login..." />
-            <marker date="1429240225000" expanded="true" signature="-1:-1" placeholder="UPDATE login..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -444,7 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="375">
           <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -452,7 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.5" vertical-offset="54" max-vertical-offset="690">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -460,9 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.375" vertical-offset="129" max-vertical-offset="795">
           <caret line="22" column="50" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="50" />
-          <folding>
-            <marker date="1429240225000" expanded="true" signature="-1:-1" placeholder="select patie..doctor_patient_info..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,9 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8235295" vertical-offset="240" max-vertical-offset="1185">
           <caret line="29" column="17" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="17" />
-          <folding>
-            <marker date="1429240225000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -480,27 +525,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31862745" vertical-offset="0" max-vertical-offset="1275">
           <caret line="13" column="20" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.0" vertical-offset="108" max-vertical-offset="825">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#input#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1429237491000" expanded="true" signature="938:1009" placeholder="select * fro..login..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/patient1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="17.352942" vertical-offset="3060" max-vertical-offset="3810">
-          <caret line="145" column="40" selection-start-line="145" selection-start-column="38" selection-end-line="145" selection-end-column="40" />
+        <state vertical-scroll-proportion="-5.0" vertical-offset="2190" max-vertical-offset="4050">
+          <caret line="163" column="9" selection-start-line="158" selection-start-column="7" selection-end-line="163" selection-end-column="9" />
           <folding>
-            <marker date="1429241521000" expanded="true" signature="5984:6288" placeholder="SELECT patie..personal_info..." />
+            <marker date="1429316732000" expanded="true" signature="6406:6710" placeholder="SELECT patie..personal_info..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new_patient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12820514" vertical-offset="0" max-vertical-offset="3390">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.34313726" vertical-offset="825" max-vertical-offset="4425">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
           <folding>
+            <element signature="n#style#0;n#input#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#td#1;n#tr#1;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -511,11 +564,18 @@
             <element signature="n#style#0;n#input#0;n#td#1;n#tr#6;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#td#1;n#tr#7;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#td#1;n#tr#8;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1429242593000" expanded="true" signature="2808:2843" placeholder="SELECT COUNT..patient_record..." />
-            <marker date="1429242593000" expanded="true" signature="3085:3121" placeholder="INSERT INTO ..." />
-            <marker date="1429242593000" expanded="true" signature="3420:3446" placeholder="INSERT INTO ..." />
-            <marker date="1429242593000" expanded="true" signature="3671:3704" placeholder="SELECT COUNT..prescription..." />
-            <marker date="1429242593000" expanded="true" signature="4073:4107" placeholder="INSERT INTO ..." />
+            <element signature="n#style#0;n#SELECT#0;n#td#1;n#tr#9;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#10;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1429316933000" expanded="true" signature="2479:2514" placeholder="SELECT COUNT..patient_record..." />
+            <marker date="1429316933000" expanded="true" signature="2756:2792" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="3142:3168" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="3383:3416" placeholder="SELECT COUNT..prescription..." />
+            <marker date="1429316933000" expanded="true" signature="3785:3819" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="3979:4005" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="4174:4210" placeholder="SELECT COUNT..discharge_sheet..." />
+            <marker date="1429316933000" expanded="true" signature="4648:4807" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="5174:5208" placeholder="INSERT INTO ..." />
+            <marker date="1429316933000" expanded="true" signature="10383:10427" placeholder="SELECT staff..staff..." />
           </folding>
         </state>
       </provider>

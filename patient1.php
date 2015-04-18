@@ -131,37 +131,52 @@ SQL;
     if (($_POST['insuranceID'])!="") {
 
         $insuranceID = $_POST['insuranceID'];
-        //MySqli Update Query
-        $db = new mysqli('localhost', 'root', 'infinite', 'test');
-        $sql = <<<SQL
+        $regex = '/^[A-Za-z0-9]+$/';
+        if(!preg_match($regex, $insuranceID)){
+            $insuranceIDErr = "Invalid Insurance ID";
+        }
+        else {
+
+
+            //MySqli Update Query
+            $db = new mysqli('localhost', 'root', 'pshah206', 'test');
+            $sql = <<<SQL
         UPDATE `prescription`
         SET `insurance_ID` = '$insuranceID'
         WHERE `patient_ID`= '$id';
 
 SQL;
 
-        if (!$result1 = $db->query($sql)) {
-            die('There was an error running the query [' . $db->error . ']');
-        } else
-            header("location: profile.php");
+            if (!$result1 = $db->query($sql)) {
+                die('There was an error running the query [' . $db->error . ']');
+            } else
+                header("location: profile.php");
+        }
     }
 
     if (($_POST['insuranceCompany'])!="") {
 
         $insuranceCompany = $_POST['insuranceCompany'];
-        //MySqli Update Query
-        $db = new mysqli('localhost', 'root', 'infinite', 'test');
-        $sql = <<<SQL
+
+        $regex = '/^[A-Za-z0-9]+$/';
+        if(!preg_match($regex, $insuranceCompany)){
+            $insuranceCompErr = "Invalid Insurance Company Name";
+        }
+        else {
+            //MySqli Update Query
+            $db = new mysqli('localhost', 'root', 'pshah206', 'test');
+            $sql = <<<SQL
         UPDATE `prescription`
         SET `insurance_Company` = '$insuranceCompany'
         WHERE `patient_ID`= '$id';
 
 SQL;
 
-        if (!$result1 = $db->query($sql)) {
-            die('There was an error running the query [' . $db->error . ']');
-        } else
-            header("location: profile.php");
+            if (!$result1 = $db->query($sql)) {
+                die('There was an error running the query [' . $db->error . ']');
+            } else
+                header("location: profile.php");
+        }
     }
 }
 
@@ -250,6 +265,7 @@ function test_input($data) {
         <br>
         Insurance Company: <input type="text" name="insuranceCompany"
                                   placeholder=<?php echo $insurance_Company; ?> style="width: 150px;" >
+        <span class="error"> <?php echo "*".$insuranceCompErr;?></span>
         <br>
         Insurance ID: <input type="text" name="insuranceID" placeholder=<?php echo $insurance_ID; ?> style="width: 150px;" >
         <span class="error"> <?php echo "*".$insuranceIDErr;?></span>
