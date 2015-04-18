@@ -16,7 +16,7 @@ if (isset($_POST['hero'])) {
 
         else {
             //MySqli Update Query
-            $db = new mysqli('localhost', 'root', 'infinite', 'test');
+            $db = new mysqli('localhost', 'root', '', 'test');
             $sql = <<<SQL
     UPDATE `patient_record`
     SET `patient_Age` = $age
@@ -39,7 +39,7 @@ SQL;
      }
      else {
          //MySqli Update Query
-         $db = new mysqli('localhost', 'root', 'infinite', 'test');
+         $db = new mysqli('localhost', 'root', '', 'test');
          $sql = <<<SQL
     UPDATE `patient_record`
     SET `patient_Contact` = $contact
@@ -63,7 +63,7 @@ SQL;
         else {
 
             //MySqli Update Query
-            $db = new mysqli('localhost', 'root', 'infinite', 'test');
+            $db = new mysqli('localhost', 'root', '', 'test');
             $sql = <<<SQL
             echo "id is --" .$id;
         UPDATE `patient_record`
@@ -87,7 +87,7 @@ SQL;
                 // echo $nameErr;
             } else {
                 //MySqli Update Query
-                $db = new mysqli('localhost', 'root', 'infinite', 'test');
+                $db = new mysqli('localhost', 'root', '', 'test');
                 $sql = <<<SQL
         UPDATE `patient_record`
         SET `patient_name` = '$name'
@@ -113,7 +113,7 @@ SQL;
         }
         else {
             //MySqli Update Query
-            $db = new mysqli('localhost', 'root', 'infinite', 'test');
+            $db = new mysqli('localhost', 'root', '', 'test');
             $sql = <<<SQL
         UPDATE `patient_record`
         SET `patient_Email_ID` = '$email'

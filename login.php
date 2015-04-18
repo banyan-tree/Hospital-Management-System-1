@@ -13,7 +13,7 @@ $username1=$_POST['username'];
 $password=$_POST['password'];
     $password=md5($password);
 // Establishing Connection with Server by passing server_name, user_id and password as a parameter
-$connection = mysql_connect("localhost", "root", "infinite");
+$connection = mysql_connect("localhost", "root", "");
 // To protect MySQL injection for Security purpose
 $username = stripslashes($username);
 $password = stripslashes($password);

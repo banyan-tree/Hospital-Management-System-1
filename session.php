@@ -3,7 +3,7 @@
 date_default_timezone_set('America/New_York');
 
 // Establishing Connection with Server by passing server_name, user_id and password as a parameter
-$connection = mysql_connect("localhost", "root", "infinite");
+$connection = mysql_connect("localhost", "root", "");
 // Selecting Database
 $db = mysql_select_db("test", $connection);
 session_start();// Starting Session
